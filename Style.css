@@ -1,0 +1,210 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Seção de destaques */
+.highlights {
+    text-align: center;
+    padding: 20px;
+}
+
+.highlights h2 {
+    margin-bottom: 20px;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.character {
+    margin: 10px;
+    text-align: center;
+}
+
+.character img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Seção de categorias */
+.categories {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.category-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-button:hover {
+    background-color: darkred;
+}
+
+/* Galeria de produtos */
+.product-gallery {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+/* Seção de blog */
+.blog {
+    padding: 20px;
+}
+
+.blog article {
+    margin-bottom: 20px;
+}
+
+/* Seção de avaliações de clientes */
+.customer-reviews {
+    padding: 20px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Seções promocionais */
+.promotions {
+    text-align: center;
+    padding: 20px;
+}
+
+.gift-card {
+    background-color: #e7f3ff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gift-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gift-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .characters {
+        flex-direction: column;
+    }
+
+    .category-buttons {
+        flex-direction: column;
+    }
+
+    .category-button {
+        width: 100%;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+}
