@@ -16,7 +16,6 @@ body {
     color: var(--letras);
 }
 
-/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
@@ -51,7 +50,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Seção de destaques */
 .highlights {
     text-align: center;
     padding: 20px;
@@ -78,7 +76,6 @@ nav ul li a {
     border-radius: 50%;
 }
 
-/* Seção de categorias */
 .categories {
     text-align: center;
     padding: 20px;
@@ -103,7 +100,6 @@ nav ul li a {
     background-color: darkred;
 }
 
-/* Galeria de produtos */
 .product-gallery {
     padding: 20px;
 }
@@ -128,7 +124,6 @@ nav ul li a {
     height: auto;
 }
 
-/* Seção de blog */
 .blog {
     padding: 20px;
 }
@@ -137,7 +132,6 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-/* Seção de avaliações de clientes */
 .customer-reviews {
     padding: 20px;
 }
@@ -148,7 +142,6 @@ nav ul li a {
     align-items: center;
 }
 
-/* Seções promocionais */
 .promotions {
     text-align: center;
     padding: 20px;
@@ -173,7 +166,6 @@ nav ul li a {
     background-color: #0056b3;
 }
 
-/* Rodapé */
 footer {
     background-color: #007bff;
     color: white;
@@ -195,7 +187,6 @@ footer {
     text-decoration: underline;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .characters {
         flex-direction: column;
