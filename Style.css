@@ -1,4 +1,9 @@
-/* Reset básico */
+:root {
+    --letras: #333;
+    --backgroud: white;
+    --color: white;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +12,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
+    background-color: var(--backgroud);
+    color: var(--letras);
 }
 
 /* Estilo do cabeçalho */
